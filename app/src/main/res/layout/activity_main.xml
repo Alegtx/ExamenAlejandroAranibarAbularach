@@ -35,7 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="F° a C°"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:onClick="F_C"/>
     </LinearLayout>
 
     <LinearLayout
@@ -50,7 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="C° a K°"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:onClick="C_K"/>
 
         <Button
             android:id="@+id/btn_K_C"
@@ -58,7 +60,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="K° a C°"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:onClick="K_C"/>
     </LinearLayout>
 
     <TextView
@@ -80,7 +83,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="'m' a 'cm'"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:onClick="M_C"/>
 
         <Button
             android:id="@+id/btn_C_M"
@@ -88,7 +92,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="'cm' a 'm'"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:onClick="C_M"/>
 
     </LinearLayout>
 
@@ -99,19 +104,21 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_M_KM"
+            android:id="@+id/btn_C_INCH"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="'m' a 'km'"
+            android:onClick="C_P"
+            android:text="'c' a 'inch'"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_KM_M"
+            android:id="@+id/btn_INCH_C"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="'km' a 'm'"
-            android:textAllCaps="false" />
+            android:text="'inch' a 'c'"
+            android:textAllCaps="false"
+            android:onClick="P_C"/>
     </LinearLayout>
 </LinearLayout>
