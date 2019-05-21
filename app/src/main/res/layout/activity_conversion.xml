@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Conversion">
+
+    <TextView
+        android:id="@+id/lbl_Unidad"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Unidad:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txt_Unidad"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="Ingrese un numero"
+        android:inputType="number"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/lbl_Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Resultado:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lbl_Total"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Total"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
